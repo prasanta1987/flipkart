@@ -4,8 +4,8 @@ const http = require('http');
 const port = 80;
 
 const server = http.createServer((req, res) => {
-      res.statusCode = 200;
-      res.setHeader('Content-Type', 'text/json');
+    //   res.statusCode = 200;
+    //   res.setHeader('Content-Type', 'text/json');
     let search = req.url
     if(search === '/favicon.ico'){
         return
