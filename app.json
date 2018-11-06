@@ -1,0 +1,8 @@
+{
+    "name" : "Flipkart API",
+    "description" : "Flipkart API Call",
+    "repository" : "https://github.com/prasanta1987/flipkart",
+    "logo" : "",
+    "keyword" : ["flipkart"],
+    "image" : "heroku/nodejs"
+}
