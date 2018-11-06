@@ -6,14 +6,12 @@ const port = process.env.PORT;
 const server = http.createServer((req, res) => {
       res.statusCode = 200;
       res.setHeader('Content-Type', 'text/json');
-      res.end('test')
     let search = req.url
     if(search === '/favicon.ico'){
         return
     } else {
         search = search.substr(1,search.length)
     }
-    // console.log(search)
     var options = {
         method: 'GET',
         url: 'https://affiliate-api.flipkart.net/affiliate/1.0/search.json',
