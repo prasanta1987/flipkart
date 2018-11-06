@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/prasanta1987/flipkart/issues"
   },
-  "homepage": "https://github.com/prasanta1987/flipkart#readme"
+  "homepage": "https://github.com/prasanta1987/flipkart#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
